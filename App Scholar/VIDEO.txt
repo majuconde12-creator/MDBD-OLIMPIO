@@ -1,0 +1,4 @@
+Explicação do APP
+https://drive.google.com/file/d/12EKUzd2RlQYspV0wwb1-9PAXr-B9bmaq/view?usp=sharing
+
+OBS: Não consegui integrar o banco de dados no comando.
