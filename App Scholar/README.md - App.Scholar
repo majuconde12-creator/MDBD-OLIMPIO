@@ -1,0 +1,133 @@
+Sobre o projeto
+
+O App Scholar é uma aplicação desenvolvida para auxiliar no gerenciamento de informações acadêmicas de uma instituição de ensino.
+
+O sistema tem como objetivo centralizar e organizar informações relacionadas ao ambiente escolar, facilitando o cadastro, a consulta e o gerenciamento de dados de alunos, professores, cursos, disciplinas, turmas, matrículas, responsáveis, avaliações, coordenadores e boletins.
+
+O projeto foi desenvolvido buscando proporcionar uma aplicação organizada, funcional e de fácil utilização, permitindo a integração entre a aplicação mobile, uma API e um banco de dados.
+
+Funcionalidades
+Cadastro de alunos
+Consulta de alunos
+Edição de informações dos alunos
+Exclusão de alunos
+Cadastro e consulta de professores
+Cadastro e consulta de cursos
+Cadastro e consulta de disciplinas
+Cadastro e consulta de turmas
+Gerenciamento de matrículas
+Consulta de responsáveis
+Consulta de avaliações
+Consulta de coordenadores
+Consulta de boletins
+Navegação entre as principais telas do sistema
+Integração com banco de dados por meio de API
+Tecnologias utilizadas
+React Native — desenvolvimento da aplicação mobile
+JavaScript — linguagem principal do projeto
+PHP — desenvolvimento da API
+MySQL — gerenciamento do banco de dados
+Git — controle de versão
+GitHub — hospedagem e gerenciamento do repositório
+Estrutura do projeto
+
+O projeto é organizado de acordo com suas principais responsabilidades:
+
+app-scholar/
+├── assets/
+├── components/
+├── screens/
+├── api/
+├── banco/
+├── App.js
+├── Cores.js
+└── README.md
+Principais pastas
+
+assets/
+Armazena imagens, ícones e outros recursos utilizados pela aplicação.
+
+components/
+Contém componentes reutilizáveis utilizados nas diferentes telas do sistema.
+
+screens/
+Armazena as principais telas da aplicação, como alunos, professores, cursos, disciplinas, turmas e boletins.
+
+api/
+Contém os arquivos responsáveis pela comunicação entre a aplicação e o banco de dados.
+
+banco/
+Contém arquivos relacionados à estrutura e configuração do banco de dados.
+
+App.js
+Arquivo principal responsável pela inicialização e configuração da aplicação.
+
+Cores.js
+Arquivo utilizado para centralizar as cores e a identidade visual do aplicativo.
+
+Como executar
+1. Clone o repositório
+git clone URL_DO_REPOSITORIO
+2. Acesse a pasta do projeto
+cd app-scholar
+3. Instale as dependências
+npm install
+4. Execute o projeto
+
+Inicie o projeto utilizando o ambiente configurado para React Native/Expo:
+
+npx expo start
+
+Após iniciar, o projeto poderá ser executado no emulador ou em um dispositivo compatível com o ambiente configurado.
+
+API e banco de dados
+
+O App Scholar utiliza uma API desenvolvida em PHP para realizar a comunicação entre a aplicação mobile e o banco de dados MySQL.
+
+A API é responsável por operações como:
+
+Cadastro de informações
+Consulta de registros
+Alteração de dados
+Exclusão de registros
+Comunicação com as tabelas do banco de dados
+
+A aplicação React Native realiza requisições à API para enviar e receber as informações utilizadas pelo sistema.
+
+Banco de dados
+
+O banco de dados é utilizado para armazenar as principais informações acadêmicas do sistema, incluindo dados relacionados a:
+
+Alunos
+Professores
+Cursos
+Disciplinas
+Turmas
+Matrículas
+Responsáveis
+Avaliações
+Coordenadores
+Boletins
+Controle de versão
+
+O projeto utiliza Git para controle de versão e GitHub para armazenamento e gerenciamento do código-fonte.
+
+Os commits são utilizados para registrar as principais etapas de desenvolvimento, como:
+
+Criação de telas
+Desenvolvimento de componentes
+Implementação da API
+Criação e alteração do banco de dados
+Integração entre aplicação e API
+Correção de erros
+Melhorias na interface
+Atualizações e novas funcionalidades
+Desenvolvimento
+
+O projeto é desenvolvido de forma incremental, permitindo que novas funcionalidades sejam adicionadas conforme a evolução do sistema.
+
+A estrutura foi pensada para facilitar a organização do código, a manutenção da aplicação e a integração entre React Native, API PHP e banco de dados MySQL.
+
+Autores
+
+Projeto desenvolvido como parte das atividades acadêmicas do curso de Desenvolvimento de Sistemas.
